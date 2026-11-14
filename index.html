@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARASI RAY | Showroom Motor Honda & Yamaha Semarang</title>
+    <meta name="description" content="GARASI RAY, showroom motor Honda dan Yamaha di Semarang. Lihat katalog, simulasi kredit, dan pesan lewat WhatsApp.">
+    <meta property="og:title" content="GARASI RAY | Showroom Motor Semarang">
+    <meta property="og:image" content="images/logo.png">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="theme-color" content="#e60012">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Katalog motor Honda dan Yamaha, simulasi kredit, dan pemesanan lewat WhatsApp.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700;1,800&family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top main-nav">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#beranda">
+            <img src="logo.webp" alt="GARASI RAY">
+            <div class="d-none d-md-flex flex-column ms-2">
+                <span class="small text-muted fw-semibold" style="font-size: 0.75rem;"><i class="bi bi-geo-alt-fill text-danger"></i> <span data-fill="alamat"></span></span>
+                <span class="small text-muted" style="font-size: 0.75rem;"><i class="bi bi-clock"></i> <span data-fill="jam"></span></span>
+            </div>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Menu">
+            <i class="bi bi-list fs-2"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mx-lg-auto">
+                <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#produk">Motor Baru</a></li>
+                <li class="nav-item"><a class="nav-link" href="#kredit">Kredit</a></li>
+                <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+                <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+            </ul>
+            <a href="#" class="btn btn-brand btn-sm" data-wa="Halo GARASI RAY, saya mau tanya promo motor."><i class="bi bi-whatsapp me-1"></i> Tanya Promo</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header id="beranda" class="hero">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container hero-slide">
+                    <div class="hero-text">
+                        <h1>Aerox, <br>sporty dan agresif.</h1>
+                        <p>Skutik 155cc dengan lampu full LED dan ABS di semua varian. Mulai Rp 29,9 juta.</p>
+                        <a href="#produk" class="btn btn-light btn-lg">Lihat Katalog</a>
+                    </div>
+                    <img src="aerox.webp" alt="Yamaha Aerox" class="hero-img">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container hero-slide">
+                    <div class="hero-text">
+                        <h1>Stylo 160, <br>klasik dan modern.</h1>
+                        <p>Skutik retro 160cc dengan Smart Key dan USB charger. Mulai Rp 29,17 juta.</p>
+                        <a href="#produk" class="btn btn-light btn-lg">Lihat Katalog</a>
+                    </div>
+                    <img src="stylo.webp" alt="Honda Stylo 160" class="hero-img">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container hero-slide">
+                    <div class="hero-text">
+                        <h1>Xmax 250, <br>nyaman touring.</h1>
+                        <p>Skutik premium 250cc dengan ABS dan traction control. Mulai Rp 67,96 juta.</p>
+                        <a href="#produk" class="btn btn-light btn-lg">Lihat Katalog</a>
+                    </div>
+                    <img src="xmax.png" alt="Yamaha Xmax" class="hero-img">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    </div>
+</header>
+
+<!-- MENU CEPAT -->
+<section class="quick">
+    <div class="container">
+        <div class="quick-grid">
+            <a href="#produk"><i class="bi bi-bicycle"></i>Motor Baru</a>
+            <a href="#kredit"><i class="bi bi-calculator"></i>Simulasi Kredit</a>
+            <a href="#service"><i class="bi bi-tools"></i>Service</a>
+            <a href="#service"><i class="bi bi-gear-wide-connected"></i>Spareparts</a>
+            <a href="#bandingkan"><i class="bi bi-arrow-left-right"></i>Bandingkan</a>
+            <a href="#kontak"><i class="bi bi-geo-alt"></i>Lokasi</a>
+        </div>
+    </div>
+</section>
+
+<!-- PROMO (tampil otomatis jika data.js berisi promo) -->
+<section id="promo" class="section pb-0 d-none">
+    <div class="container">
+        <div class="section-head"><h2>Promo</h2></div>
+        <div class="row g-3" id="promoGrid"></div>
+    </div>
+</section>
+
+<!-- PRODUK -->
+<section id="produk" class="section">
+    <div class="container">
+        <div class="section-head">
+            <h2>Motor Baru</h2>
+            <div class="d-flex gap-2 flex-wrap">
+                <input type="search" id="searchInput" class="form-control search-box" placeholder="Cari motor..." aria-label="Cari motor">
+                <select id="sortSelect" class="form-select" style="width: auto;">
+                    <option value="default">Urutkan: Standard</option>
+                    <option value="price-asc">Harga: Termurah</option>
+                    <option value="price-desc">Harga: Termahal</option>
+                    <option value="name-asc">Nama: A - Z</option>
+                </select>
+            </div>
+        </div>
+        <div class="chips" id="filters">
+            <button class="chip active" data-filter="all">Semua</button>
+            <button class="chip" data-filter="Honda">Honda</button>
+            <button class="chip" data-filter="Yamaha">Yamaha</button>
+            <button class="chip" data-filter="Matic">Matic</button>
+            <button class="chip" data-filter="Sport">Sport</button>
+            <button class="chip" data-filter="Premium">Premium</button>
+        </div>
+        <div class="row g-4" id="productGrid"></div>
+        <p id="emptyMsg" class="text-center text-muted mt-4 d-none">Motor tidak ditemukan. Coba kata kunci lain atau pilih filter "Semua".</p>
+        <p class="note">Harga OTR Semarang dan dapat berubah tanpa pemberitahuan. Hubungi kami untuk harga terbaru.</p>
+    </div>
+</section>
+
+<!-- BANDINGKAN -->
+<section id="bandingkan" class="section alt">
+    <div class="container">
+        <div class="section-head"><h2>Bandingkan Motor</h2></div>
+        <div class="row g-3 mb-3">
+            <div class="col-6"><select id="cmpA" class="form-select"></select></div>
+            <div class="col-6"><select id="cmpB" class="form-select"></select></div>
+        </div>
+        <div class="table-responsive">
+            <table class="table cmp-table align-middle" id="cmpTable"></table>
+        </div>
+    </div>
+</section>
+
+<!-- KREDIT -->
+<section id="kredit" class="section">
+    <div class="container">
+        <div class="section-head"><h2>Simulasi Kredit</h2></div>
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="panel">
+                    <label class="form-label">Pilih motor</label>
+                    <select id="kMotor" class="form-select mb-3"></select>
+
+                    <label class="form-label">Uang muka (DP): <strong id="kDpLabel"></strong></label>
+                    <input type="range" id="kDp" class="form-range mb-3" min="10" max="50" step="5" value="20">
+
+                    <label class="form-label">Tenor</label>
+                    <select id="kTenor" class="form-select mb-3">
+                        <option value="12">12 bulan</option>
+                        <option value="18">18 bulan</option>
+                        <option value="24">24 bulan</option>
+                        <option value="30">30 bulan</option>
+                        <option value="35" selected>35 bulan</option>
+                    </select>
+
+                    <label class="form-label">Bunga flat per tahun (perkiraan): <strong id="kRateLabel"></strong></label>
+                    <input type="range" id="kRate" class="form-range" min="5" max="15" step="0.5" value="9">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="panel result">
+                    <p class="mb-1 text-muted">Perkiraan angsuran per bulan</p>
+                    <div class="big" id="kCicilan">Rp 0</div>
+                    <dl class="row mb-3 mt-3">
+                        <dt class="col-6">Harga motor</dt><dd class="col-6 text-end" id="kHarga"></dd>
+                        <dt class="col-6">Uang muka</dt><dd class="col-6 text-end" id="kDpRp"></dd>
+                        <dt class="col-6">Pokok pinjaman</dt><dd class="col-6 text-end" id="kPokok"></dd>
+                    </dl>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="btn btn-brand flex-grow-1" id="kWa"><i class="bi bi-whatsapp me-1"></i> Ajukan lewat WhatsApp</a>
+                        <button class="btn btn-outline-light" id="kCopyBtn" title="Salin Ringkasan"><i class="bi bi-copy"></i></button>
+                    </div>
+                    <p class="note mt-3 mb-0">Ini hanya perkiraan. Bunga, biaya admin, dan asuransi mengikuti perusahaan pembiayaan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="section alt">
+    <div class="container">
+        <div class="section-head"><h2>Kenapa Beli di GARASI RAY</h2></div>
+        <div class="row g-4">
+            <div class="col-6 col-md-4 perk"><i class="bi bi-shield-check"></i><h3>Unit baru bergaransi</h3><p>Motor baru dengan garansi pabrik.</p></div>
+            <div class="col-6 col-md-4 perk"><i class="bi bi-lightning-charge"></i><h3>Proses cepat</h3><p>Pengajuan kredit dibantu dari awal sampai motor siap dibawa.</p></div>
+            <div class="col-6 col-md-4 perk"><i class="bi bi-chat-dots"></i><h3>Konsultasi gratis</h3><p>Tanya pilihan motor lewat WhatsApp kapan saja.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICE -->
+<section id="service" class="section">
+    <div class="container">
+        <div class="section-head"><h2>Service dan Spareparts</h2></div>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="panel h-100">
+                    <h3 class="h5">Booking service</h3>
+                    <p class="text-muted">Pilih tanggal dan jenis service, lalu kirim lewat WhatsApp.</p>
+                    <div class="row g-2">
+                        <div class="col-6"><input type="text" id="sNama" class="form-control" placeholder="Nama"></div>
+                        <div class="col-6"><input type="text" id="sMotor" class="form-control" placeholder="Tipe motor"></div>
+                        <div class="col-6"><input type="date" id="sTgl" class="form-control"></div>
+                        <div class="col-6">
+                            <select id="sJenis" class="form-select">
+                                <option>Service rutin</option><option>Ganti oli</option><option>Ganti ban</option><option>Lainnya</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="btn btn-brand mt-3" id="sKirim"><i class="bi bi-whatsapp me-1"></i> Kirim booking</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel h-100">
+                    <h3 class="h5">Spareparts dan aksesoris</h3>
+                    <p class="text-muted">Cari suku cadang untuk motor Anda. Kirim tipe motor dan bagian yang dicari, kami cek stoknya.</p>
+                    <a href="#" class="btn btn-outline-dark" data-wa="Halo GARASI RAY, saya mau cek stok sparepart."><i class="bi bi-whatsapp me-1"></i> Cek stok sparepart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONI (tampil otomatis jika data.js berisi testimoni) -->
+<section id="testimoni" class="section d-none">
+    <div class="container">
+        <div class="section-head"><h2>Kata Pelanggan</h2></div>
+        <div class="row g-3" id="testiGrid"></div>
+    </div>
+</section>
+
+<!-- TIPS -->
+<section id="tips" class="section">
+    <div class="container">
+        <div class="section-head"><h2>Tips Seputar Motor</h2></div>
+        <div class="accordion" id="tipsAcc"></div>
+    </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang" class="section alt">
+    <div class="container about">
+        <img src="logo.webp" alt="Logo GARASI RAY">
+        <div>
+            <h2>Tentang GARASI RAY</h2>
+            <p>GARASI RAY adalah showroom motor di Semarang yang menyediakan skutik Honda dan Yamaha untuk harian maupun touring. Kami membantu Anda memilih motor, menghitung cicilan, dan mengurus pembelian dengan harga yang jelas.</p>
+        </div>
+    </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="section">
+    <div class="container">
+        <div class="section-head"><h2>Kunjungi Kami</h2></div>
+        <div class="row g-4">
+            <div class="col-lg-5">
+                <div class="panel h-100">
+                    <ul class="contact-list">
+                        <li><i class="bi bi-geo-alt-fill"></i> <span data-fill="alamat"></span></li>
+                        <li><i class="bi bi-clock-fill"></i> <span data-fill="jam"></span></li>
+                        <li><i class="bi bi-whatsapp"></i> <span id="waText"></span></li>
+                    </ul>
+                    <input type="text" id="cNama" class="form-control mb-2" placeholder="Nama">
+                    <textarea id="cPesan" class="form-control mb-2" rows="3" placeholder="Pesan Anda"></textarea>
+                    <button class="btn btn-brand w-100" id="cKirim"><i class="bi bi-whatsapp me-1"></i> Kirim pesan</button>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <iframe id="mapFrame" class="map" title="Peta lokasi GARASI RAY" loading="lazy"
+                    src="https://www.google.com/maps?q=Semarang&output=embed"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4"><img src="logo.webp" alt="GARASI RAY" class="footer-logo"><p class="small mt-2">Showroom motor Honda dan Yamaha di Semarang.</p></div>
+            <div class="col-6 col-md-4"><h4>Menu</h4><a href="#produk">Motor Baru</a><a href="#kredit">Simulasi Kredit</a><a href="#service">Service</a><a href="#kontak">Kontak</a></div>
+            <div class="col-6 col-md-4"><h4>Ikuti kami</h4><span id="sosial"></span><a href="#" data-bs-toggle="modal" data-bs-target="#termsModal" class="mt-2">Syarat dan ketentuan</a></div>
+        </div>
+        <p class="copy">Status usaha: <span data-fill="status"></span><br>© 2026 GARASI RAY. Merek dan gambar produk milik masing-masing pabrikan.</p>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Kembali ke atas"><i class="bi bi-arrow-up"></i></button>
+<a href="#" class="wa-float" data-wa="Halo GARASI RAY, saya tertarik dengan motor di website." aria-label="Chat WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+<!-- MODAL DETAIL -->
+<div class="modal fade" id="detailModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-0"><h5 class="modal-title" id="mTitle"></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button></div>
+            <div class="modal-body">
+                <div class="row g-3 align-items-center">
+                    <div class="col-md-6"><img id="mImg" class="img-fluid" alt=""></div>
+                    <div class="col-md-6">
+                        <p id="mDesc" class="text-muted"></p>
+                        <table class="table table-sm" id="mSpec"></table>
+                        <div id="mExtra"></div>
+                        <div class="price-lg" id="mPrice"></div>
+                        <a href="#" class="btn btn-brand w-100 mt-2" id="mWa"><i class="bi bi-whatsapp me-1"></i> Tanya motor ini</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="termsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+        <div class="modal-header"><h5 class="modal-title">Syarat dan ketentuan</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button></div>
+        <div class="modal-body small">
+            <ul>
+                <li>Harga yang tampil adalah perkiraan OTR Semarang dan dapat berubah tanpa pemberitahuan. Hubungi kami untuk harga terbaru.</li>
+                <li>Gambar produk hanya ilustrasi. Warna, varian, dan stok dapat berbeda.</li>
+                <li>Simulasi kredit hanya perkiraan. Persetujuan kredit, bunga, biaya admin, dan asuransi ditentukan perusahaan pembiayaan.</li>
+                <li>Data yang Anda kirim lewat WhatsApp hanya kami gunakan untuk menjawab pertanyaan, penawaran, dan layanan Anda.</li>
+                <li>Merek dan logo Honda serta Yamaha adalah milik pemegang mereknya masing-masing.</li>
+            </ul>
+        </div>
+    </div></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
